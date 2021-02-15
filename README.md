@@ -9,27 +9,31 @@
   <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
 </p>
 
+ 
+- openapi-generator: version 5.0.1
+
+Somehow I am getting this error, by clicking on button.
+
+
 ```sh
-npx create-react-native-app -t with-typescript
+not implemented
+- node_modules/react-native/Libraries/Blob/URL.js:197:10 in get__search
+- node_modules/regenerator-runtime/runtime.js:63:36 in tryCatch
+- node_modules/regenerator-runtime/runtime.js:293:29 in invoke
+- node_modules/regenerator-runtime/runtime.js:63:36 in tryCatch
+- node_modules/regenerator-runtime/runtime.js:154:27 in invoke
+- node_modules/regenerator-runtime/runtime.js:164:18 in PromiseImpl.resolve.then$argument_0
+- node_modules/react-native/node_modules/promise/setimmediate/core.js:37:13 in tryCallOne
+- node_modules/react-native/node_modules/promise/setimmediate/core.js:123:24 in setImmediate$argument_0
+- node_modules/react-native/Libraries/Core/Timers/JSTimers.js:130:14 in _callTimer
+- node_modules/react-native/Libraries/Core/Timers/JSTimers.js:181:14 in _callImmediatesPass
+- node_modules/react-native/Libraries/Core/Timers/JSTimers.js:441:30 in callImmediates
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:387:6 in __callImmediates
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:135:6 in __guard$argument_0
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:364:10 in __guard
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:134:4 in flushedQueue
+* [native code]:null in flushedQueue
+* [native code]:null in callFunctionReturnFlushedQueue
+
 ```
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
-
-## 🚀 How to use
-
-#### Creating a new project
-
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `expo init --template expo-template-blank-typescript`
-- `cd` into the project
-
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `expo start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.io/versions/latest/guides/typescript/)
-# openapi-rn-problem
